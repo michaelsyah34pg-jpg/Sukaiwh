@@ -12,7 +12,7 @@ static decimal hitungDiskon(int jml_item)
 static decimal hitungTotal(int jml_item, decimal hrg_item, decimal diskon_item)
 {
     return jml_item * hrg_item - diskon_item;
-}    
+}
 Console.Write("Masukkan jumlah item : ");
 jumlahItem = int.Parse(Console.ReadLine());
 
